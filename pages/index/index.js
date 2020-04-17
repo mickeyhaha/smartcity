@@ -254,9 +254,9 @@ Page({
       }
     }
   },
-  goCoupons: function (e) {
-    wx.navigateTo({
-      url: "/pages/coupons/index"
+  goMap: function (e) {
+    wx.switchTab({
+      url: '../../pages/map/map',
     })
   },
   pingtuanGoods(){ // 获取团购商品列表

@@ -6,7 +6,7 @@
     "pages/index/index",
     "pages/notice/index",
     "pages/notice/show",
-    "pages/category/category",
+    "pages/map/map",
     "pages/goods/list",
     "pages/goods/fav",
     "pages/goods-details/index",
@@ -57,16 +57,16 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/category/category",
+        "pagePath": "pages/map/map",
         "iconPath": "images/nav/ic_catefory_normal.png",
         "selectedIconPath": "images/nav/ic_catefory_pressed.png",
-        "text": "分类"
+        "text": "呼叫虎哥"
       },
       {
         "pagePath": "pages/shop-cart/index",
         "iconPath": "images/nav/cart-off.png",
         "selectedIconPath": "images/nav/cart-on.png",
-        "text": "购物车"
+        "text": "回收订单"
       },
       {
         "pagePath": "pages/my/index",
@@ -78,7 +78,7 @@
   },
   "permission": {
     "scope.userLocation": {
-      "desc": "获取离你最近的门店"
+      "desc": "获取离你最近的阿虎"
     }
   },
   "navigateToMiniProgramAppIdList": [
