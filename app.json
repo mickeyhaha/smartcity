@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/nb-iot/mappage/mappage",
     "pages/start/loading",
     "pages/start/start",
     "pages/shop/select",
@@ -61,6 +62,12 @@
         "iconPath": "images/nav/ic_catefory_normal.png",
         "selectedIconPath": "images/nav/ic_catefory_pressed.png",
         "text": "呼叫虎哥"
+      },
+      {
+        "pagePath": "pages/nb-iot/mappage/mappage",
+        "iconPath": "images/nav/ic_catefory_normal.png",
+        "selectedIconPath": "images/nav/ic_catefory_pressed.png",
+        "text": "智能井盖"
       },
       {
         "pagePath": "pages/shop-cart/index",

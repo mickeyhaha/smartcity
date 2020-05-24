@@ -99,6 +99,12 @@
 					"name": "分销中心",
 					"pathName": "pages/fx/apply-status",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "智慧井盖",
+					"pathName": "pages/nb-iot/mappage/mappage",
+					"scene": null
 				}
 			]
 		}

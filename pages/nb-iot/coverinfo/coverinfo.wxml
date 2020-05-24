@@ -1,0 +1,127 @@
+<!--pages/coverinfo/coverinfo.wxml-->
+<view class="page">
+
+  <view class="page__hd">
+    <view class="page__title">详细信息</view>
+  </view>
+
+  <view class="page__bd">
+    <view class="weui-cells__title">井盖信息</view>
+    <view class="weui-cells weui-cells_after-title">
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">SN</view>
+        <view class="weui-cell__ft">{{sn}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">井盖编号</view>
+        <view class="weui-cell__ft">{{coverNo}}</view>
+      </view>
+
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">地址</view>
+        <view class="weui-cell__ft">{{address}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">纬度</view>
+        <view class="weui-cell__ft">{{latitude}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">经度</view>
+        <view class="weui-cell__ft">{{longitude}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">所属城市</view>
+        <view class="weui-cell__ft">{{city}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">管理员账号</view>
+        <view class="weui-cell__ft">{{operPhone}}</view>
+      </view>
+
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">电量</view>
+        <view class="weui-cell__ft">{{battery}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">设备内核版本</view>
+        <view class="weui-cell__ft">{{version}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">信号强度</view>
+        <view class="weui-cell__ft">{{signalStrength}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">添加时间</view>
+        <view class="weui-cell__ft">{{createTime}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">IMSI</view>
+        <view class="weui-cell__ft">{{imsi}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">上报时间</view>
+        <view class="weui-cell__ft">{{reportTime}}</view>
+      </view>
+
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">警报状态</view>
+        <view class="weui-cell__ft">{{warningInfo}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">是否校准</view>
+        <view class="weui-cell__ft">{{ifRecalibrate}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">当前上报间隔</view>
+        <view class="weui-cell__ft">{{reportInterval}}</view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__bd">上报间隔（天）</view>
+        <input class="weui-cell__ft" placeholder="输入设备上报间隔" bindinput='bindReportingInterval' />
+        <view class="weui-cell__ft">
+          <button class="weui-btn mini-btn" type="primary" size='mini' bindtap='configInterval'>设置</button>
+
+        </view>
+      </view>
+
+
+
+    </view>
+  </view>
+
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn" type="primary" bindtap='checkLog'>查看历史报警信息</button>
+
+  </view>
+
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn" type="primary" bindtap='recalibrateDevice'>设备校准</button>
+
+
+  </view>
+
+
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn" type="warn" bindtap='deleteCover'>删除此设备</button>
+
+
+  </view>
+
+</view>
