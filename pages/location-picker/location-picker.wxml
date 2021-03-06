@@ -1,0 +1,4 @@
+
+  <view class="primary-btn mt30" bindtap="onWatchDemo">
+    查看示例
+	</view>

@@ -123,6 +123,7 @@ var request = function request(url, needSubDomain, method, data) {
 /**
  * 小程序的promise没有finally方法，自己扩展下
  */
+/*
 Promise.prototype.finally = function (callback) {
   var Promise = this.constructor;
   return this.then(function (value) {
@@ -135,6 +136,7 @@ Promise.prototype.finally = function (callback) {
     });
   });
 };
+*/
 
 module.exports = {
   init2: function init2(a, b) {

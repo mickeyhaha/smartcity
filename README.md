@@ -1,3 +1,10 @@
+
+	#腾讯LBS: 
+  key: smartcity
+  Key: NREBZ-WBP3X-57X4J-TRLUY-GIFZ2-B6BRE
+
+
+
 # 微信小程序商城
 
 微信小程序商城，微信小程序微店，长期维护版本，欢迎大家踊跃提交贡献代码；

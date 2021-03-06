@@ -35,7 +35,8 @@
     "pages/coupons/index",
     "pages/invoice/list",
     "pages/invoice/apply",
-    "pages/deposit/pay"
+    "pages/deposit/pay",
+    "pages/location-picker/location-picker"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -63,6 +64,12 @@
         "text": "呼叫虎哥"
       },
       {
+        "pagePath": "pages/location-picker/location-picker",
+        "iconPath": "images/nav/ic_catefory_normal.png",
+        "selectedIconPath": "images/nav/ic_catefory_pressed.png",
+        "text": "无线测温"
+      },
+      {
         "pagePath": "pages/shop-cart/index",
         "iconPath": "images/nav/cart-off.png",
         "selectedIconPath": "images/nav/cart-on.png",
@@ -76,9 +83,15 @@
       }
     ]
   },
+  "plugins": {
+    "chooseLocation": {
+      "version": "1.0.5",
+      "provider": "wx76a9a06e5b4e693e"
+    }
+  },
   "permission": {
     "scope.userLocation": {
-      "desc": "获取离你最近的阿虎"
+      "desc": "你的位置信息将用于小程序定位"
     }
   },
   "navigateToMiniProgramAppIdList": [

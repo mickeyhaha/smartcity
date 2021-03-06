@@ -1,1 +1,10 @@
-<map id="map" longitude="{{centerX}}" latitude="{{centerY}}"  scale="16" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 100vh;"></map>
+<map id="map" 
+subkey="NREBZ-WBP3X-57X4J-TRLUY-GIFZ2-B6BRE"
+layer-style="1"
+longitude="{{centerX}}" latitude="{{centerY}}"  
+scale="16" controls="{{controls}}" 
+bindcontroltap="controltap" 
+markers="{{markers}}" 
+bindmarkertap="markertap" 
+bindregionchange="regionchange" 
+show-location style="width: 100%; height: 100vh;"></map>
