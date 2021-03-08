@@ -36,6 +36,7 @@
     "pages/invoice/list",
     "pages/invoice/apply",
     "pages/deposit/pay",
+    "pages/mycharts/index",
     "pages/location-picker/location-picker"
   ],
   "window": {
@@ -70,10 +71,10 @@
         "text": "无线测温"
       },
       {
-        "pagePath": "pages/shop-cart/index",
+        "pagePath": "pages/mycharts/index",
         "iconPath": "images/nav/cart-off.png",
         "selectedIconPath": "images/nav/cart-on.png",
-        "text": "回收订单"
+        "text": "图表"
       },
       {
         "pagePath": "pages/my/index",
@@ -94,9 +95,6 @@
       "desc": "你的位置信息将用于小程序定位"
     }
   },
-  "navigateToMiniProgramAppIdList": [
-    "wx56c8f077de74b07c"
-  ],
   "usingComponents": {
     "float-menu": "/components/float-menu/index",
     "parser":"/components/parser.20200414.min/parser",
