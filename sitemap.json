@@ -1,5 +1,5 @@
 {
-  "desc": "知会城市，智慧城市",
+  "desc": "智慧城市，智慧温度",
   "rules": [{
   "action": "allow",
   "page": "*"

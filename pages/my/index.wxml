@@ -11,21 +11,21 @@
 	</view>
   <view class="asset">
     <view class='item' bindtap='goAsset'>
-      <view>{{balance}}</view>
-      <view>余额</view>
+      <view>{{balance}}+10</view>
+      <view>总设备</view>
     </view>
     <view class='item right' bindtap='goAsset'>
-      <view>{{freeze}}</view>
-      <view>冻结</view>
+      <view>{{freeze}}+10</view>
+      <view>正常</view>
     </view>
     <view class='item right' bindtap='goScore'>
       <view>{{score}}</view>
-      <view>积分</view>
+      <view>报警</view>
     </view>
     <navigator url="/pages/score/growth">
       <view class='item right'>
         <view>{{growth}}</view>
-        <view>成长值</view>
+        <view>失效</view>
       </view>
     </navigator>
   </view>
@@ -33,7 +33,7 @@
   
   <navigator url="/pages/order-list/index">
     <view class="menu-item">
-      <view class="l">服务订单</view>
+      <view class="l">工单信息</view>
       <image class="next" src="/images/icon/next.png"></image>
     </view>
   </navigator>
@@ -41,7 +41,7 @@
   <view class='order-shortcut'>
     <view class='item' bindtap='goOrder' data-type="0">
       <image class="icon" src="/images/order/topay.png" background-size="cover"></image>
-      <view class='text'>待上门</view>
+      <view class='text'>待处理</view>
     </view>
     <view class='item' bindtap='goOrder' data-type="1">
       <image class="icon" src="/images/order/fahuo.png" background-size="cover"></image>
@@ -49,7 +49,7 @@
     </view>
     <view class='item' bindtap='goOrder' data-type="3">
       <image class="icon" src="/images/order/pj.png" background-size="cover"></image>
-      <view class='text'>待评价</view>
+      <view class='text'>待关闭</view>
     </view>
   </view>
   <!--
@@ -71,7 +71,7 @@
       <view class="l">资金明细</view>
       <image class="next" src="/images/icon/next.png"></image>
     </view>
-  </navigator>-->
+  </navigator>
   <view class="line"></view>   
   <block wx:if="{{vipLevel > 0}}">
     <view class="space"></view>
@@ -102,7 +102,6 @@
       </view>
     </navigator>
   </block>
-
   <view class="space"></view>
   <navigator url="/pages/invoice/apply">
     <view class="menu-item">
@@ -118,10 +117,11 @@
     </view>
   </navigator>
 
+-->
   <view class="space"></view>  
   <navigator url="/pages/select-address/index">
     <view class="menu-item">
-      <view class="l">我的地址</view>
+      <view class="l">设备地址</view>
       <image class="next" src="/images/icon/next.png"></image>
     </view>
   </navigator>

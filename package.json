@@ -1,7 +1,7 @@
 {
   "name": "smartcity",
   "version": "7.4.1",
-  "description": "智慧城市",
+  "description": "智慧温度",
   "main": "app.js",
   "dependencies": {
     "@vant/weapp": "^1.2.1",
@@ -18,9 +18,9 @@
     "url": "git+https://github.com/mickeyhaha/smartcity.git"
   },
   "keywords": [
-    "智慧城市",
-    "智慧城市",
-    "智慧城市"
+    "智慧温度",
+    "智慧温度",
+    "智慧温度"
   ],
   "author": "gooking",
   "license": "ISC",
