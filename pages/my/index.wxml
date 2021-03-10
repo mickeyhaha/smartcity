@@ -11,11 +11,11 @@
 	</view>
   <view class="asset">
     <view class='item' bindtap='goAsset'>
-      <view>{{balance}}+10</view>
+      <view>{{(balance+10)*10000}}</view>
       <view>总设备</view>
     </view>
     <view class='item right' bindtap='goAsset'>
-      <view>{{freeze}}+10</view>
+      <view>{{(freeze+10)*10000}}</view>
       <view>正常</view>
     </view>
     <view class='item right' bindtap='goScore'>
@@ -119,6 +119,7 @@
 
 -->
   <view class="space"></view>  
+  <!--
   <navigator url="/pages/select-address/index">
     <view class="menu-item">
       <view class="l">设备地址</view>
@@ -126,7 +127,6 @@
     </view>
   </navigator>
   <view class="line"></view>
-  <!--
   <navigator url="/pages/coupons/index">
     <view class="menu-item">
       <view class="l">领券中心</view>
@@ -170,6 +170,7 @@
     <image class="next" src="/images/icon/next.png"></image>
   </view>
   <view class="line"></view>
+  <!--
   <view wx:if="{{userMobile}}" class="menu-item">
     <view class="l">绑定手机</view>
     <view class="r">{{ userMobile }}</view>
@@ -177,7 +178,7 @@
   <view  wx:else class="menu-item">
     <view class="l">绑定手机</view>
     <button type="primary" size="mini" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">立即绑定</button>
-  </view>
+  </view>-->
   <view class="line"></view>
   <view class="menu-item" bindtap="clearStorage">
     <view class="l">清除缓存</view>
