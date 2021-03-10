@@ -37,6 +37,7 @@
     "pages/invoice/apply",
     "pages/deposit/pay",
     "pages/mycharts/index",
+    "pages/list/index",
     "pages/location-picker/location-picker"
   ],
   "window": {
@@ -59,7 +60,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/map/map",
+        "pagePath": "pages/list/index",
         "iconPath": "images/nav/ic_catefory_normal.png",
         "selectedIconPath": "images/nav/ic_catefory_pressed.png",
         "text": "呼叫虎哥"
