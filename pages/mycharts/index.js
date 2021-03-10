@@ -116,7 +116,7 @@ Page({
         splitNumber: 8,
         min: 10,
         max: 180,
-        format: (val) => { return val.toFixed(0) + '元' }//如不写此方法，Y轴刻度默认保留两位小数
+        format: (val) => { return val.toFixed(0) + '℃' }//如不写此方法，Y轴刻度默认保留两位小数
       },
       width: _self.cWidth,
       height: _self.cHeight,

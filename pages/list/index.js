@@ -343,7 +343,7 @@ Page({
         splitNumber: 8,
         min: 10,
         max: 180,
-        format: (val) => { return val.toFixed(0) + '元' }//如不写此方法，Y轴刻度默认保留两位小数
+        format: (val) => { return val.toFixed(0) + '℃' }//如不写此方法，Y轴刻度默认保留两位小数
       },
       width: _self.cWidth,
       height: _self.cHeight,
@@ -366,7 +366,7 @@ Page({
     //下面是toolTip事件，如果滚动后不需要显示，可不填写
     canvaLineA.showToolTip(e, {
       format: function (item, category) {
-        return category + ' ' + item.name + ':' + item.data
+        return category + ' ' + item.name + ': ' + item.data + ' ℃'
       }
     });
   },
