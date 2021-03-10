@@ -63,19 +63,19 @@
         "pagePath": "pages/list/index",
         "iconPath": "images/nav/ic_catefory_normal.png",
         "selectedIconPath": "images/nav/ic_catefory_pressed.png",
-        "text": "呼叫虎哥"
+        "text": "设备列表"
       },
       {
         "pagePath": "pages/location-picker/location-picker",
         "iconPath": "images/nav/ic_catefory_normal.png",
         "selectedIconPath": "images/nav/ic_catefory_pressed.png",
-        "text": "无线测温"
+        "text": "设备地图"
       },
       {
-        "pagePath": "pages/mycharts/index",
+        "pagePath": "pages/notice/index",
         "iconPath": "images/nav/cart-off.png",
         "selectedIconPath": "images/nav/cart-on.png",
-        "text": "图表"
+        "text": "消息"
       },
       {
         "pagePath": "pages/my/index",

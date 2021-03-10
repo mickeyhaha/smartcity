@@ -298,3 +298,14 @@ page,view,image,input {
   left: 0;
   text-align: center;
 }
+
+.qiun-charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #FFFFFF;
+}
+.charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #FFFFFF;
+}
