@@ -73,8 +73,8 @@
       },
       {
         "pagePath": "pages/notice/index",
-        "iconPath": "images/nav/cart-off.png",
-        "selectedIconPath": "images/nav/cart-on.png",
+        "iconPath": "images/nav/order-off.png",
+        "selectedIconPath": "images/nav/order-on.png",
         "text": "消息"
       },
       {
