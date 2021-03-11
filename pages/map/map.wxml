@@ -2,7 +2,7 @@
 subkey="NREBZ-WBP3X-57X4J-TRLUY-GIFZ2-B6BRE"
 layer-style="1"
 longitude="{{centerX}}" latitude="{{centerY}}"  
-scale="16" controls="{{controls}}" 
+scale="10" 
 bindcontroltap="controltap" 
 markers="{{markers}}" 
 bindmarkertap="markertap" 

@@ -124,10 +124,10 @@
     </view>
     <view class='tuan'>
       <view class='tuan-item' wx:for="{{pingtuanList}}" wx:key="id">
-        <view class='tuan-goods-pic' bindtap="toDetailsTap">
+        <view class='tuan-goods-pic'>
           <image src="{{item.pic}}" mode="aspectFill" lazy-load='{{true}}' />
         </view>
-        <view class='tuan-title' bindtap="toDetailsTap">{{item.name}}</view>
+        <view class='tuan-title'>{{item.name}}</view>
         <view class='tuan-profile'>{{item.characteristic}}</view>
         <view class="weui-badge" style="margin-left: 20rpx;" wx:if="{{item.tags}}">{{item.tags}}</view>
       </view>
