@@ -54,15 +54,9 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/list/index",
         "iconPath": "images/nav/home-off.png",
         "selectedIconPath": "images/nav/home-on.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/list/index",
-        "iconPath": "images/nav/ic_catefory_normal.png",
-        "selectedIconPath": "images/nav/ic_catefory_pressed.png",
         "text": "设备列表"
       },
       {

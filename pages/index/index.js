@@ -69,29 +69,33 @@ Page({
     })
   },
   onLoad: function(e) {
-    wx.showShareMenu({
-      withShareTicket: true
-    })    
-    const that = this
-    wx.setNavigationBarTitle({
-      title: wx.getStorageSync('mallName')
+    // wx.showShareMenu({
+    //   withShareTicket: true
+    // })    
+    // const that = this
+    // wx.setNavigationBarTitle({
+    //   title: wx.getStorageSync('mallName')
+    // })
+    // this.initBanners()
+    // this.categories()
+    // WXAPI.goods({
+    //   recommendStatus: 1
+    // }).then(res => {
+    //   if (res.code === 0){
+    //     that.setData({
+    //       goodsRecommend: res.data
+    //     })
+    //   }      
+    // })
+    // that.getCoupons()
+    // that.getNotice()
+    // that.kanjiaGoods()
+    // that.pingtuanGoods()
+    // this.wxaMpLiveRooms()
+
+    wx.switchTab({
+      url: '/pages/list/index',
     })
-    this.initBanners()
-    this.categories()
-    WXAPI.goods({
-      recommendStatus: 1
-    }).then(res => {
-      if (res.code === 0){
-        that.setData({
-          goodsRecommend: res.data
-        })
-      }      
-    })
-    that.getCoupons()
-    that.getNotice()
-    that.kanjiaGoods()
-    that.pingtuanGoods()
-    this.wxaMpLiveRooms()
   },
   async wxaMpLiveRooms(){
     const res = await WXAPI.wxaMpLiveRooms()

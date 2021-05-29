@@ -104,7 +104,7 @@ Page({
     const idx = e.currentTarget.dataset.idx
     wx.setStorageSync('shopInfo', this.data.shops[idx])
     wx.switchTab({
-      url: '/pages/index/index'
+      url: '/pages/list/index'
     })
   }
 })

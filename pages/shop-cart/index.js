@@ -67,7 +67,7 @@ Page({
   },
   toIndexPage: function() {
     wx.switchTab({
-      url: "/pages/index/index"
+      url: "/pages/list/index"
     });
   },
 

@@ -572,7 +572,7 @@ Page({
   },
   goIndex() {
     wx.switchTab({
-      url: '/pages/index/index',
+      url: '/pages/list/index',
     });
   },
   helpKanjia() {

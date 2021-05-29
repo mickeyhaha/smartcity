@@ -21,7 +21,7 @@ Page({
         });
       } else {
         wx.switchTab({
-          url: '/pages/index/index',
+          url: '/pages/list/index',
         });
       }
     } else {
@@ -36,7 +36,7 @@ Page({
             });
           } else {
             wx.switchTab({
-              url: '/pages/index/index',
+              url: '/pages/list/index',
             });
           }
         } else {
@@ -52,7 +52,7 @@ Page({
           });
         } else {
           wx.switchTab({
-            url: '/pages/index/index',
+            url: '/pages/list/index',
           });
         }
       })
@@ -79,7 +79,7 @@ Page({
         });
       } else {
         wx.switchTab({
-          url: '/pages/index/index',
+          url: '/pages/list/index',
         });
       }
     } else {
