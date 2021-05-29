@@ -309,3 +309,31 @@ page,view,image,input {
   height: 500rpx;
   background-color: #FFFFFF;
 }
+
+.bottom-box {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  font-size: 28rpx;
+  color: #333;
+  border-top: 1rpx solid #eee;
+  height: 100rpx;
+  background: #fff;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-box .add-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 32rpx;
+}
+.bottom-box .add-btn image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.bottom-box .add-btn view {
+  margin-left: 16rpx;
+}

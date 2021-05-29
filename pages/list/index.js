@@ -96,6 +96,36 @@ Page({
       currentGoods: res.data
     });
   },
+  addAddess: function(e) {
+    // 允许从相机和相册扫码
+    wx.scanCode({
+      success (res) {
+        console.log(res)
+        wx.showModal({
+          title: '提示',
+          content: res.result,
+          success: function (res) {
+              if (res.confirm) {
+                  console.log('用户点击确定')
+              }else{
+                 console.log('用户点击取消')
+              }
+          }
+        })
+      },
+      fail(res){
+        console.log(res)
+        wx.showToast({
+          title: '失败',
+          icon:'error',
+          duration: 1000
+        })
+      },
+      complete(res){
+        //console.log("是什么",res)
+      }
+    })
+  },
   toDetailsTap: function(e) {
     wx.navigateTo({
       url: "/pages/list/detail?id=" + e.currentTarget.dataset.id

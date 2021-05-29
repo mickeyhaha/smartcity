@@ -54,6 +54,13 @@
       </view>
     </scroll-view>
   </view>
+
+  <view class="bottom-box" bindtap="addAddess">
+    <view class="add-btn">
+      <image src="/images/add-addr.png"></image>
+      <view>添加设备</view>
+    </view>
+  </view>
 </view>
 
 <block wx:if="{{skuCurGoods}}">
